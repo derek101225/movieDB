@@ -24,7 +24,7 @@ const SearchMovies = () => {
     return (
         <div>
         <form className="form" onSubmit={searchMovies}>
-            <label className="label" htmlFor="query">Movie Name</label>
+            <label className="label" htmlFor="query">Search</label>
             <input className="input" type="text" name="query"
                 placeholder="i.e. Jurassic Park"
                 value={query} onChange={(e) => setQuery(e.target.value)}
