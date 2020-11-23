@@ -5,7 +5,7 @@ import SearchMovie from './componets/searchMovie'
 function App() {
   return (
     <div className="container">
-      <h1 className='title'>React Movie Search</h1>
+      <h1 className='title'>MovieView Search</h1>
       <SearchMovie/>
     </div>
   );
